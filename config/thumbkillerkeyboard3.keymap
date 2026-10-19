@@ -19,12 +19,12 @@
 
         layer_1 {
             bindings = <
-                &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &tog 0
-                &kp N7 &kp N8 &kp N7 &kp N8 &kp N9 &kp N0
-                &kp N1 &kp N2 &kp N4 &kp N5 &kp N6 &kp RET
-                &kp N7 &kp N8 &kp N1 &kp N2 &kp N3 &kp N0
-                &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &none
-                &kp N0 &kp N1 &kp N0 &kp N0 &none  &none
+                &trans   &kp Q   &kp P   &kp J   &kp F   &kp L
+                &trans   &kp M   &kp R   &kp E   &kp C   &kp H
+                &trans   &trans  &kp S   &kp G   &kp FSLH &kp N
+                &trans   &kp X   &kp Y   &kp Z   &kp D   &trans
+                &trans   &trans  &trans  &trans  &none   &none
+                &trans   &trans  &trans  &trans  &none   &none
             >;
         };
 
