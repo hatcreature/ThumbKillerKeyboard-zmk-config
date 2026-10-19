@@ -1,0 +1,7 @@
+file_format: "1"
+id: thumbkillerkeyboard3
+name: ThumbKillerKeyboard3 Left
+type: shield
+requires: [pro_micro]
+features:
+  - keys
