@@ -15,7 +15,7 @@
                 &kp LSHIFT &lt 8 F17  &lt 7 F18    &kp LS(LALT) &none        &none
                 &kp LALT   &kp LC(LALT) &kp LC(LSHIFT) &kp LCTRL &none        &none
             >;
-            sensor-bindings = <&inc_dec_kp N1 N2>;
+            sensor-bindings = <&inc_dec_kp RBKT LBKT>;
         };
 
         layer_1 {
