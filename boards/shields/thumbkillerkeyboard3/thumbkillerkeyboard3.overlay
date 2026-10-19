@@ -1,3 +1,4 @@
+
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
@@ -44,5 +45,20 @@
             RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5)
             RC(5,0) RC(5,1) RC(5,2) RC(5,3) RC(5,4) RC(5,5)
         >;
+    };
+
+    encoder0: encoder {
+        compatible = "alps,ec11";
+        a-gpios = <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <&pro_micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        steps = <80>;
+        status = "okay";
+    };
+
+    sensors: sensors {
+        compatible = "zmk,keymap-sensors";
+        status = "okay";
+        sensors = <&encoder0>;
+        triggers-per-rotation = <20>;
     };
 };
