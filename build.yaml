@@ -2,6 +2,4 @@
 ---
 include:
   - board: nice_nano
-    shield: test_one
-  - board: nice_nano
     shield: thumbkillerkeyboard3
