@@ -3,3 +3,5 @@
 include:
   - board: nice_nano
     shield: thumbkillerkeyboard3
+  - board: nice_nano
+    shield: settings_reset
