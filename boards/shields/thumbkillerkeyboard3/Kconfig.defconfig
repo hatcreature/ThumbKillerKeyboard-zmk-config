@@ -1,6 +1,7 @@
+
 if SHIELD_THUMBKILLERKEYBOARD3
 
 config ZMK_KEYBOARD_NAME
-    default "ThumbKillerKeyboard3 Left"
+    default "ThumbKillerLeft"
 
 endif
