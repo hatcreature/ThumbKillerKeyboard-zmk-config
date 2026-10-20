@@ -3,3 +3,4 @@
 include:
   - board: nice_nano
     shield: thumbkillerkeyboard3
+    snippet: studio-rpc-usb-uart
