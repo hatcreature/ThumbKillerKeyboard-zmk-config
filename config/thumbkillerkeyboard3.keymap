@@ -12,8 +12,8 @@
                 &kp ESC    &kp Q       &kp W        &kp E        &kp R        &kp T
                 &lt 6 INT2 &lt 5 A     &kp S        &kp D        &kp F        &kp G
                 &kp LGUI   &kp Z       &kp X        &kp C        &kp V        &kp A
-                &kp LSHIFT &lt 8 F17  &lt 7 F18    &kp LS(LALT) &none        &none
-                &kp LALT   &kp LC(LALT) &kp LC(LSHIFT) &kp LCTRL &none        &none
+                &kp LSHIFT &lt 8 F17  &lt 7 F18    &kp LS(LALT)
+                &kp LALT   &kp LC(LALT) &kp LC(LSHIFT) &kp LCTRL
             >;
             sensor-bindings = <&inc_dec_kp RBKT LBKT>;
         };
@@ -24,8 +24,8 @@
                 &trans   &kp M   &kp R   &kp E   &kp C   &kp H
                 &trans   &trans  &kp S   &kp G   &kp FSLH &kp N
                 &trans   &kp X   &kp Y   &kp Z   &kp D   &trans
-                &trans   &trans  &trans  &trans  &none   &none
-                &trans   &trans  &trans  &trans  &none   &none
+                &trans   &trans  &trans  &trans
+                &trans   &trans  &trans  &trans
             >;
         };
 
@@ -35,8 +35,8 @@
                 &kp N7 &kp N8 &kp N7 &kp N8 &kp N9 &kp N0
                 &kp N1 &kp N2 &kp N4 &kp N5 &kp N6 &kp RET
                 &kp N7 &kp N8 &kp N1 &kp N2 &kp N3 &kp N0
-                &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &none
-                &kp N0 &kp N1 &kp N0 &kp N0 &none  &none
+                &kp N1 &kp N2 &kp N3 &kp N4
+                &kp N0 &kp N1 &kp N0 &kp N0
             >;
         };
 
@@ -46,8 +46,8 @@
                 &kp N7 &kp N8 &kp N7 &kp N8 &kp N9 &kp N0
                 &kp N1 &kp N2 &kp N4 &kp N5 &kp N6 &kp RET
                 &kp N7 &kp N8 &kp N1 &kp N2 &kp N3 &kp N0
-                &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &none
-                &kp N0 &kp N1 &kp N0 &kp N0 &none  &none
+                &kp N1 &kp N2 &kp N3 &kp N4
+                &kp N0 &kp N1 &kp N0 &kp N0
             >;
         };
 
@@ -57,8 +57,8 @@
                 &kp N7 &kp N8 &kp N7 &kp N8 &kp N9 &kp N0
                 &kp N1 &kp N2 &kp N4 &kp N5 &kp N6 &kp RET
                 &kp N7 &kp N8 &kp N1 &kp N2 &kp N3 &kp N0
-                &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &none
-                &kp N0 &kp N1 &kp N0 &kp N0 &none  &none
+                &kp N1 &kp N2 &kp N3 &kp N4
+                &kp N0 &kp N1 &kp N0 &kp N0
             >;
         };
 
@@ -68,8 +68,8 @@
                 &none &none &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp KP_MULTIPLY
                 &none &none &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp KP_ENTER
                 &none &none &kp KP_N1 &kp KP_N2 &kp KP_N3 &none
-                &kp BKSP &kp KP_PLUS &kp KP_DOT &kp KP_DIVIDE &none &none
-                &kp SPACE &kp KP_MINUS &kp KP_N0 &kp INT5 &none &none
+                &kp BKSP &kp KP_PLUS &kp KP_DOT &kp KP_DIVIDE
+                &kp SPACE &kp KP_MINUS &kp KP_N0 &kp INT5
             >;
         };
 
@@ -79,8 +79,8 @@
                 &none    &none    &kp LS(N8)  &kp LS(N9)  &none       &none
                 &none    &none    &kp LS(N1)  &kp LS(FSLH) &kp MINUS  &none
                 &none    &none    &kp LBKT    &kp RBKT    &kp LS(N2)  &none
-                &kp LG(V) &kp DEL &kp LC(I)   &kp F2      &none       &none
-                &kp LC(BSPC) &kp LG(LS(LC(M))) &none &none &none &none
+                &kp LG(V) &kp DEL &kp LC(I)   &kp F2
+                &studio_unlock &kp LG(LS(LC(M))) &none &none
             >;
         };
 
@@ -90,8 +90,8 @@
                 &none &none &kp HOME &kp UP &kp END &kp LG(E)
                 &none &none &kp LEFT &kp DOWN &kp RIGHT &kp LG(D)
                 &none &none &kp LC(LG(LEFT)) &kp LG(INT2) &kp LC(LG(RIGHT)) &none
-                &none &none &none &none &none &none
-                &none &none &none &none &none &none
+                &none &none &none &none
+                &none &none &none &none
             >;
         };
 
@@ -101,8 +101,8 @@
                 &none &none &kp O &kp I &kp U &kp Y
                 &none &kp P &kp L &kp K &kp J &kp H
                 &kp SQT &kp SEMI &kp M &kp N &kp B &none
-                &kp DOT &kp COMMA &none &none &none &none
-                &none &none &none &none &none &none
+                &kp DOT &kp COMMA &none &none
+                &none &none &none &none
             >;
         };
 
@@ -112,8 +112,8 @@
                 &kp N7 &kp N8 &kp N7 &kp N8 &kp N9 &kp N0
                 &kp N1 &kp N2 &kp N4 &kp N5 &kp N6 &kp RET
                 &kp N7 &kp N8 &kp N1 &kp N2 &kp N3 &kp N0
-                &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &none
-                &kp N0 &kp N1 &kp N0 &kp N0 &none  &none
+                &kp N1 &kp N2 &kp N3 &kp N4
+                &kp N0 &kp N1 &kp N0 &kp N0
             >;
         };
     };
