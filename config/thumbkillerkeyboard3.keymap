@@ -1,14 +1,23 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 / {
+    behaviors {
+        encoder_scroll: encoder_scroll {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_DOWN &msc SCRL_UP>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-                &studio_unlock  &kp N1      &kp N2       &kp N3       &kp N4       &kp N5
+                &studio_unlock &kp N1  &kp N2       &kp N3       &kp N4       &kp N5
                 &kp ESC    &kp Q       &kp W        &kp E        &kp R        &kp T
                 &lt 6 INT2 &lt 5 A     &kp S        &kp D        &kp F        &kp G
                 &kp LGUI   &kp Z       &kp X        &kp C        &kp V        &kp A
@@ -71,6 +80,7 @@
                 &kp BKSP &kp KP_PLUS &kp KP_DOT &kp KP_DIVIDE
                 &kp SPACE &kp KP_MINUS &kp KP_N0 &kp INT5
             >;
+            sensor-bindings = <&encoder_scroll>;
         };
 
         layer_6 {
@@ -104,6 +114,7 @@
                 &kp DOT &kp COMMA &none &none
                 &none &none &none &none
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         layer_9 {
