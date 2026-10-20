@@ -103,7 +103,7 @@
         compatible = "zmk,keymap-sensors";
         status = "okay";
         sensors = <&encoder0>;
-        triggers-per-rotation = <20>;
+        triggers-per-rotation = <40>;
     };
 
 };
