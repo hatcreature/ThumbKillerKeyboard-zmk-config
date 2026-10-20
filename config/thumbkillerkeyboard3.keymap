@@ -8,7 +8,7 @@
 
         default_layer {
             bindings = <
-                &kp GRAVE  &kp N1      &kp N2       &kp N3       &kp N4       &kp N5
+                &studio_unlock  &kp N1      &kp N2       &kp N3       &kp N4       &kp N5
                 &kp ESC    &kp Q       &kp W        &kp E        &kp R        &kp T
                 &lt 6 INT2 &lt 5 A     &kp S        &kp D        &kp F        &kp G
                 &kp LGUI   &kp Z       &kp X        &kp C        &kp V        &kp A
