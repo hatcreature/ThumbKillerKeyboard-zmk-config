@@ -2,6 +2,6 @@
 if SHIELD_THUMBKILLERKEYBOARD3
 
 config ZMK_KEYBOARD_NAME
-    default "ThumbKillerKeyboard"
+    default "ThumbKiller"
 
 endif
