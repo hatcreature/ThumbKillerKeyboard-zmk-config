@@ -1,6 +1,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
 
 / {
     keymap {
@@ -99,7 +100,7 @@
         layer_8 {
             bindings = <
                 &none &none &kp C_PREV &kp C_PLAY &kp C_NEXT &kp C_FF
-                &none &kp P &kp O &kp I &kp U &kp Y
+                &bt BT_PRV &bt BT_NXT &kp O &kp I &kp U &kp Y
                 &kp SQT &kp SEMI &kp L &kp K &kp J &kp H
                 &kp DOT &kp COMMA &kp M &kp N &kp B &none
                 &none &none &none &none
@@ -120,4 +121,5 @@
         };
     };
 };
+
 
